@@ -1,0 +1,7 @@
+duckduckgo-search
+google-generativeai
+requests
+beautifulsoup4
+flask
+markdown
+Gunicorn

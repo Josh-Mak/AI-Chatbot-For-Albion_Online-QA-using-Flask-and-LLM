@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Lips McBot Homepage</title>
+
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #000;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #369ccd;
+        }
+        p {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <img src="https://cdn.discordapp.com/attachments/255002176701726722/1160261582849319054/biglipsmcbot-removebg-preview.png?ex=653404cd&is=65218fcd&hm=ed3e9be08c2cc6b34e13875e0a2ab7befd669bd443947a25a7c0333ed964fffa&" alt="Logo">
+
+    <h2>What do you want to ask about?</h2>
+
+    <form action="/general" method="post">
+        <button value="Submit">General Albion Q/A</button>
+    </form>
+
+    <form action="/specific_patch" method="post">
+        <button value="Submit">Ask About a Specific Patch</button>
+    </form>
+
+    <form action="/patch_items" method="post">
+        <button value="Submit">Ask About Patch History for a Specific Thing (eg. Weapon/Armor)</button>
+    </form>
+
+</body>
+</html>
