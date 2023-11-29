@@ -1,4 +1,4 @@
-# AI-Chatbot-For-QA-Albion_Online
+# AI-Chatbot-For-Albion_Online-QA-using-Flask-and-LLM
 This is an AI chatbot powered by a large langauge model that answers questions about the video game Albion Online.
 
 Intro: I made this program when I was creating YouTube content for Albion Online, using Flask, google-gemini (LLM), and requests. As a creator that put out lots of educational content about the game, I got endless questions about it, and so thought a chatbot would be extremely helpful to not only me, but my viewers. This project taught me a lot about using LLM's in production code, how frontends like Flask work, and webscraping/data analysis. I also learned about more traditional chatbot methods, such as embeddings and vectorestores, as the initial version of this bot used these.
